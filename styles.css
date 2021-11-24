@@ -1,0 +1,35 @@
+:root{
+    --primary: #253b49;
+    --secondary: #39a0ed;
+    --comp: #36f1cd;
+}
+
+body,p,a,ul,li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.nav ul{
+    display: none;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.nav{
+    margin: 0, 20px;
+}
+
+.nav h1{
+    grid-column: 1/3;
+}
+
+
+
